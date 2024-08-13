@@ -1,0 +1,273 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{}
+*{font-family: poppins;}
+body{
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    background: #1A1A1A;
+    background-image: url('images/Ellipse\ 3.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+body main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+body main #contentBody{
+    width: 1320px;
+    height: auto;
+}
+body main #contentBody #header {
+    margin: 40px auto auto auto;
+    width: 1320px;
+    display: flex;
+    justify-content: space-between;
+}
+body main #contentBody #header #logoHolder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body main #contentBody #header #cartProfile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body main #contentBody #header #cartProfile #cartHolder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body main #contentBody #header #cartProfile #cart {
+    display: flex;
+    top: 5px;
+    justify-content: center;
+    background: transparent;
+    border: 0px;
+}
+body main #contentBody #header #cartProfile #cart #numberContainer {
+    position: relative;
+    left: -10px;
+    width: 13px;
+    height: 13px;
+    background: #D9D9D9;
+    border-radius: 50%;   
+    margin: 5px 0px 0px 0px;
+}
+body main #contentBody #header #cartProfile #cart #numberContainer p {
+    text-align: center;
+    text-orientation: center;
+    margin: 0px;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 13px;
+    color: #A80360;
+}
+body main #contentBody #header #cartProfile #userHolder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body main #contentBody #header #cartProfile #userHolder #userProfile {
+    width: auto;
+    height: auto;
+    background: transparent;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+body main #contentBody #header #cartProfile #userHolder #userProfile #userElipse {
+    border-radius: 50%;
+    background: #494949;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body main #contentBody #header #cartProfile #userHolder #userMore {
+    display: flex;
+    justify-content: baseline;
+}
+body main #contentBody #header #cartProfile #userHolder #userMore img {
+    width: auto;
+    height: auto;
+}
+body main #contentBody #searchDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 120px 0px 0px 0px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px;
+}
+body main #contentBody #searchDiv #searchContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+body main #contentBody #searchDiv #searchContent #searchBar {
+    width: 597px;
+    height: 48px;  
+    background: transparent; 
+    border: 1px solid #7B7676;
+    border-radius: 8px;
+}
+body main #contentBody #searchDiv #searchContent #searchIcon {
+    width: 10px;
+    height: auto;   
+}
+body main #contentBody #searchDiv #searchContent #searchButton {
+    width: 115px;
+    height: 48px;
+    border-radius: 8px;
+    background: linear-gradient(180deg, #FF2D5F 0%, #A00060 100%);
+    color: #FFFFFF;
+    border: 0px;
+    font-weight: 500;
+    line-height: 26.5px;
+    font-size: 20px;
+}
+body main #contentBody #searchProduct {
+    text-align: center;  
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 37.1px;
+    color: #C0C0C0;
+    margin: 15px 0px 120px 0px;
+}
+body main #contentBody #topProduct {
+    text-align: left;  
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 29.15px;
+    color: #C0C0C0;
+    margin: 10px 0px 30px 0px;
+}
+body main #contentBody #featuredProduct {
+    text-align: left;  
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 29.15px;
+    color: #C0C0C0;
+    margin: 10px 0px 30px 0px;
+}
+body main #contentBody #cardRow {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto;
+    justify-content: space-between;
+    gap: auto;
+    margin-bottom: 100px;
+    row-gap: 100px;
+}
+body main #contentBody #cardRow #card{
+    width: 202px;
+    height: 287px;
+    border-radius: 8px;
+    background: #1E1E1E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 0px 0px;
+}
+body main #contentBody #cardRow #card #allContent {
+    width: 190px;
+    height: auto;
+}
+body main #contentBody #cardRow #card #allContent #imageHolder {
+    width: 190px;
+    height: 143px;
+}
+body main #contentBody #cardRow #card #allContent #imageHolder #productImg {
+    width: 190px;
+    height: 143px;
+    border-radius: 4px;
+}
+body main #contentBody #cardRow #card #allContent #productDescription {
+    
+}
+body main #contentBody #cardRow #card #allContent #productDescription h1{
+    font-weight: 400;
+    font-size: 14px;   
+    color: #C0C0C0;
+    line-height: 18.55px;
+    margin: 10px 0px 5px 0px;
+}
+body main #contentBody #cardRow #card #allContent #productDescription p {
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 9.27px;
+    color: #C0C0C0;
+    margin: 0px 0px 0px 0px;
+}
+body main #contentBody #cardRow #card #allContent #productRating {
+    
+}
+body main #contentBody #cardRow #card #allContent #productRating #star1 {
+    width: 8.33px;
+    height: 7.5px;
+}
+body main #contentBody #cardRow #card #allContent #productRating #star2 {
+    width: 8.33px;
+    height: 7.5px;
+}
+body main #contentBody #cardRow #card #allContent #productRating #star3 {
+    width: 8.33px;
+    height: 7.5px;
+}
+body main #contentBody #cardRow #card #allContent #productRating #star4 {
+    width: 8.33px;
+    height: 7.5px;
+}
+body main #contentBody #cardRow #card #allContent #productRating #star5 {
+    width: 8.33px;
+    height: 7.5px;
+}
+body main #contentBody #cardRow #card #allContent #pricePurchase {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0px 0px 0px;
+}
+body main #contentBody #cardRow #card #allContent #pricePurchase #price {
+    color: #C0C0C0;
+    margin: 0px;
+    font-size: 12px;
+    line-height: 15.9px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body main #contentBody #cardRow #card #allContent #pricePurchase #price #priceTag{
+    width: 10.5px;
+    height: 10.5px;
+}
+body main #contentBody #cardRow #card #allContent #pricePurchase button {
+    width: 76px;
+    height: 20px;
+    color: #FFFFFF;
+    background: linear-gradient(90deg, #FF2D5F 0%, #A00060 100%);
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13.25px;
+    border: 0px;
+    border-radius: 8px;
+}

@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{}
+*{
+    font-family: poppins;
+    box-sizing: border-box;}
+body{
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    background: #1A1A1A;
+    background-image: url('images/Ellipse\ 3.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+body main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    transition: filter 0ms ease-in-out 300ms;
+}
+body main #contentBody{
+    width: 1320px;
+    height: auto;
+}
+body main #contentBody #header {
+    margin: 40px auto auto auto;
+    width: 1320px;
+    display: flex;
+    justify-content: space-between;
+}
+body main #contentBody #header #logoHolder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body main #contentBody #header #cartProfile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body main #contentBody #header #cartProfile #cartHolder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body main #contentBody #header #cartProfile #cart {
+    display: flex;
+    top: 5px;
+    justify-content: center;
+    background: transparent;
+    border: 0px;
+}
+body main #contentBody #header #cartProfile #cart #numberContainer {
+    position: relative;
+    left: -10px;
+    width: 13px;
+    height: 13px;
+    background: #D9D9D9;
+    border-radius: 50%;   
+    margin: 5px 0px 0px 0px;
+}
+body main #contentBody #header #cartProfile #cart #numberContainer p {
+    text-align: center;
+    text-orientation: center;
+    margin: 0px;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 13px;
+    color: #A80360;
+}
+body main #contentBody #header #cartProfile #userHolder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body main #contentBody #header #cartProfile #userHolder #userProfile {
+    width: auto;
+    height: auto;
+    background: transparent;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+body main #contentBody #header #cartProfile #userHolder #userProfile #userElipse {
+    border-radius: 50%;
+    background: #494949;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body main #contentBody #header #cartProfile #userHolder #userMore {
+    display: flex;
+    justify-content: baseline;
+}
+body main #contentBody #header #cartProfile #userHolder #userMore img {
+    width: auto;
+    height: auto;
+}
+body main #contentBody #cartCheckoutText {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+body main #contentBody #cartCheckoutText #checkoutText {
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 45.05px;
+    text-align: left;
+    color: #C0C0C0;
+}
+body main #contentBody #cartCheckoutText #total { 
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 25.17px;
+    text-align: left;
+    color: #C0C0C0;  
+}
+body main #contentBody #card {
+    width: 100%;
+    height: auto;
+    background: #1E1E1E;
+    box-shadow: 0px 4px 8px 0px #0000000F;
+    padding: 30px 30px 30px 30px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+body main #contentBody #card #allContent {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+body main #contentBody #card #allContent #imageHolder {
+    margin: 0px 30px 0px 0px;
+    width: 144px;
+    height: 142px;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+body main #contentBody #card #allContent #imageHolder #productImg {
+
+}
+body main #contentBody #card #allContent #productDescription {
+    height: 147px;
+    position: relative;
+}
+body main #contentBody #card #allContent #productDescription h1{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31.8px;
+    text-align: left;
+    color: #C0C0C0;
+    margin: 10px 0px 5px 0px;
+}
+body main #contentBody #card #allContent #productDescription p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.55px;
+    text-align: left;
+    color: #C0C0C0;
+    margin: auto 0px 10px 0px;
+    position: absolute;
+    bottom: 0px;
+}
+body main #contentBody #cardHolder  {
+    width: 100%;
+    height: auto;
+}
+body main #contentBody #checkoutContainer  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: 200px 0px 100px 0px;
+}
+body main #contentBody #card #allContent #productRating {
+    
+}
+body main #contentBody #card #allContent #productRating #star1 {
+    width: 19.68px;
+    height: 17.72px;
+}
+body main #contentBody #card #allContent #productRating #star2 {
+    width: 19.68px;
+    height: 17.72px;
+}
+body main #contentBody #card #allContent #productRating #star3 {
+    width: 19.68px;
+    height: 17.72px;
+}
+body main #contentBody #card #allContent #productRating #star4 {
+    width: 19.68px;
+    height: 17.72px;
+}
+body main #contentBody #card #allContent #productRating #star5 {
+    width: 19.68px;
+    height: 17.72px;
+}
+body main #contentBody #card #allContent #pricePurchase {
+    margin-left: auto;
+    color: #C0C0C0;
+    height: 142px;
+    position: relative;
+}
+body main #contentBody #card #allContent #pricePurchase #price {
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 35.77px;
+    text-align: left;
+    color: #C0C0C0;
+    margin: 0px 0px 0px 0px;
+    top: 0px;
+}
+body main #contentBody #card #allContent #pricePurchase #price #priceTag {
+    width: 24.94px;
+    height: 24.94px;
+    color: #C0C0C0;
+}
+body main #contentBody #card #allContent #pricePurchase #increament {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #C0C0C0;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+body main #contentBody #card #allContent #pricePurchase #increament #leftIncreament {
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #FF2D5F 0%, #A00060 100%);
+    color: #C0C0C0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body main #contentBody #card #allContent #pricePurchase #increament #leftIncreament p {
+    margin: 0px;
+}
+body main #contentBody #card #allContent #pricePurchase #increament p {
+    margin: 0px 0px 0px 0px;
+    color: #C0C0C0;
+}
+body main #contentBody #card #allContent #pricePurchase #increament #decreament {
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    opacity: 0px;
+    background: linear-gradient(90deg, #FF2D5F 0%, #A00060 100%);
+    color: #C0C0C0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body main #contentBody #card #allContent #pricePurchase #increament #decreament p {
+    margin: 0px;
+}
+body main #contentBody #popup {
+    position: absolute;
+    top: -100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 649px;
+    height: 419px;  
+    padding: 20px;
+    background:#1E1E1E;
+    border-radius: 40px;
+    margin-top: -25px;
+    text-align: center;
+}
+body main #contentBody #popup #closePopup {
+    margin: 10px 0px 15px 0px;
+    position: absolute;
+    right: 40px;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border: 0px;
+    border-radius: 50%;
+    text-align: center;
+    color: #C0C0C0;
+    outline: 0px;
+    cursor: pointer;
+    font-size: 49px;
+    font-weight: 600;
+    line-height: 64.92px;
+}
+body main #contentBody #checkoutContainer #checkoutButton {
+    width: 337px;
+    height: 34px;
+    border-radius: 5px;
+    background-image: linear-gradient(90deg, #FF2D5F 0%, #A00060 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 0px;
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26.5px;
+    overflow: hidden;
+}
+body  #checkoutButton main {
+    filter:drop-shadow(0px 4px 4px 0px #0000001A);
+    box-shadow: ;
+    transition: 
+}
+body main #contentBody #checkoutContainer #checkoutButton:after  {
+    content: '';
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 5px;
+}
+body main #contentBody #popup #checkVector {
+    margin: 60px auto 0px auto;
+    width: 126.76px;
+    height: 126.75px;
+}
+body main #contentBody #popup #successText {
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 68.9px;
+    color: #FFFFFF;
+    margin: 0px auto 10px auto;
+}
+body main #contentBody #popup #othertext {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26.5px;
+    color: #C0C0C0;
+    margin: 5px auto 5px auto;
+}
+body main #contentBody #popup #pricetext {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 79.5px;
+    background-image: linear-gradient(90deg, #FF2D5F 0%, #A00060 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 5px auto 5px auto;
+}
+body #active #popup {
+    overflow: hidden;
+}
+body #active main {
+    filter:grayscale( 0px 4px 4px 0px #0000001A;
+    );
+    background: transparent;
+    transition: filter 0ms ease-in-out 0ms;
+}
+body #active #popup {
+    top: 50%;
+    opacity: 1;
+    margin-top: 0px;
+    transition: top 0ms ease-in-out 300ms, opcity 300ms ease-in-out, margin-top 300ms ease-in-out;
+}
+

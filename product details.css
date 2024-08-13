@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{}
+*{font-family: poppins;}
+body{
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    background: #1A1A1A;
+    background-image: url('images/Ellipse\ 3.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+body main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+body main #contentBody{
+    width: 1320px;
+    height: auto;
+}
+body main #contentBody #header {
+    margin: 40px auto auto auto;
+    width: 1320px;
+    display: flex;
+    justify-content: space-between;
+}
+body main #contentBody #header #logoHolder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body main #contentBody #header #cartProfile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body main #contentBody #header #cartProfile #cartHolder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body main #contentBody #header #cartProfile #cart {
+    display: flex;
+    top: 5px;
+    justify-content: center;
+    background: transparent;
+    border: 0px;
+}
+body main #contentBody #header #cartProfile #cart #numberContainer {
+    position: relative;
+    left: -10px;
+    width: 13px;
+    height: 13px;
+    background: #D9D9D9;
+    border-radius: 50%;   
+    margin: 5px 0px 0px 0px;
+}
+body main #contentBody #header #cartProfile #cart #numberContainer p {
+    text-align: center;
+    text-orientation: center;
+    margin: 0px;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 13px;
+    color: #A80360;
+}
+body main #contentBody #header #cartProfile #userHolder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body main #contentBody #header #cartProfile #userHolder #userProfile {
+    width: auto;
+    height: auto;
+    background: transparent;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+body main #contentBody #header #cartProfile #userHolder #userProfile #userElipse {
+    border-radius: 50%;
+    background: #494949;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body main #contentBody #header #cartProfile #userHolder #userMore {
+    display: flex;
+    justify-content: baseline;
+}
+body main #contentBody #header #cartProfile #userHolder #userMore img {
+    width: auto;
+    height: auto;
+}
+body main #contentBody #productdetailsText {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 45.05px;
+    color: #C0C0C0;
+    margin: 100px 0px 30px 0px;
+}
+body main #contentBody #holder {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 100px;
+}
+body main #contentBody #holder #card {
+    width: 100%;
+    height: auto;
+    background: #1E1E1E;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px 0px #0000000F;
+}
+body main #contentBody #holder #card #allContent {
+    display: flex;
+    align-items: start;
+}
+body main #contentBody #holder #card #allContent #imageHolder {
+    width: 395px;
+    height: 392px;
+    margin: 25px 25px 25px 25px;
+}
+body main #contentBody #holder #card #allContent #imageHolder #productImg {
+    width: 395px;
+    height: 392px;
+    border-radius: 38px;
+}
+body main #contentBody #holder #card #allContent #productDescription {
+    margin-top: 10px; 
+}
+body main #contentBody #holder #card #allContent #productDescription #p1 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31.8px;
+    color: #C0C0C0;
+}
+body main #contentBody #holder #card #allContent #productDescription #p2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.2px;
+    color: #C0C0C0;
+}
+body main #contentBody #holder #card #allContent #productDescription ul {
+    margin-bottom: 30px;
+}
+body main #contentBody #holder #card #allContent #productDescription ul li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.2px;
+    color: #C0C0C0;
+}
+body main #contentBody #holder #card #allContent #productDescription #productDescription2 {
+    margin-top: 100px;
+}
+body main #contentBody #holder #card #allContent #productDescription #productDescription2 #p2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.2px;
+    color: #C0C0C0;
+}
+body main #contentBody #holder #card #allContent #productDescription #productDescription2 #productRating {
+    width: auto;
+    height: auto;
+}
+body main #contentBody #holder #card #allContent #productDescription #productDescription2 #productRating #star1 {
+    width: 19.68px;
+    height: 17.72px;
+}
+body main #contentBody #holder #card #allContent #productDescription #productDescription2 #productRating #star2 {
+    width: 19.68px;
+    height: 17.72px;
+}
+body main #contentBody #holder #card #allContent #productDescription #productDescription2 #productRating #star3 {
+    width: 19.68px;
+    height: 17.72px;
+}
+body main #contentBody #holder #card #allContent #productDescription #productDescription2 #productRating #star4 {
+    width: 19.68px;
+    height: 17.72px;
+}
+body main #contentBody #holder #card #allContent #productDescription #productDescription2 #productRating #star5 {
+    width: 19.68px;
+    height: 17.72px;
+}
+body main #contentBody #holder #card #allContent #productDescription #price {
+   font-weight: 600;
+   font-size: 27px;
+   line-height: 35.77px;
+   color: #C0C0C0;
+   margin-top: 5px;
+   margin-bottom: 10px;
+}
+body main #contentBody #holder #card #allContent #productDescription #price #priceTag {
+    width: 24.94px;
+    height: 24.94px;
+}
+body main #contentBody #holder #card #allContent #productDescription #pricePurchase {
+    margin-bottom: 50px;
+}
+body main #contentBody #holder #card #allContent #productDescription #pricePurchase #addtoCart {
+    width: 164px;
+    height: 33.74px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #FF2D5F 0%, #A00060 100%);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.2px;
+    color: #FFFFFF;
+    border: 0px;
+    margin-right: 20px;
+}
+body main #contentBody #holder #card #allContent #productDescription #pricePurchase #buynowButton {
+    width: 121px;
+    height: 34px;
+    border-radius: 5px;
+    border: 0px;
+    background-image: linear-gradient(90deg, #FF2D5F 0%, #A00060 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    position: relative;
+}
+
+body main #contentBody #holder #card #allContent #productDescription #pricePurchase #buynowButton:after {
+    content: '';
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+body main #contentBody #holder #card #allContent #productDescription #pricePurchase #buynowButton #tag {
+    width: 20.14px;
+    height: 19.78px;
+} 
