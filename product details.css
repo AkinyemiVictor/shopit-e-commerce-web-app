@@ -5,6 +5,7 @@ body{
     height: 100%;
     width: 100%;
     top: 0px;
+    margin: 0px;
     background: #1A1A1A;
     background-image: url('images/Ellipse\ 3.png');
     background-repeat: no-repeat;

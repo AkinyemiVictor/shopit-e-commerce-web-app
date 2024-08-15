@@ -6,6 +6,7 @@ body{
     height: 100%;
     width: 100%;
     top: 0px;
+    margin: 0px;
     background: #1A1A1A;
     background-image: url('images/Ellipse\ 3.png');
     background-repeat: no-repeat;
@@ -25,7 +26,7 @@ body main #contentBody{
 }
 body main #contentBody #header {
     margin: 40px auto auto auto;
-    width: 1320px;
+    width: auto;
     display: flex;
     justify-content: space-between;
 }
@@ -270,4 +271,117 @@ body main #contentBody #cardRow #card #allContent #pricePurchase button {
     line-height: 13.25px;
     border: 0px;
     border-radius: 8px;
+}
+@media all and (max-width: 350px) {
+    
+}
+@media all and (max-width: 1400px){
+    body main #contentBody {
+        width: 1186px;
+    }
+    body main #contentBody #searchDiv #searchContent #searchBar {
+        width: 547px;
+        height: ;
+    }
+    body main #contentBody #searchDiv {
+        margin: 160px 0px 0px 0px;
+    }
+}
+@media all and (max-width: 1230px){
+    body main #contentBody {
+        width: 1024px;
+    }
+    body main #contentBody #searchDiv #searchContent #searchBar {
+        width: 547px;
+    }
+    body main #contentBody #searchDiv {
+        margin: 160px 0px 0px 0px;
+    }
+    body main #contentBody #searchDiv #searchContent #searchButton {
+        width: 115px;
+        height: 48px;
+        font-weight: 500;
+        line-height: 26.5px;
+        font-size: 20px;
+    }
+    body main #contentBody #searchProduct {
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 37.1px;
+    }
+    body main #contentBody #topProduct {
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 29.15px;
+    }
+    body main #contentBody #featuredProduct {  
+        font-size: 22px;
+        line-height: 29.15px;
+    }
+    body main #contentBody #cardRow {
+        grid-template-columns: auto auto auto auto;
+        row-gap: 80px;
+    }
+}
+@media all and (max-width: 1060px){
+    body main #contentBody {
+        width: 900px;
+    }
+    body main #contentBody #searchDiv #searchContent #searchBar {
+        width: 515px;
+        height: 40px
+    }
+    body main #contentBody #searchDiv #searchContent #searchButton {
+        width: 115px;
+        height: 40px;
+        font-weight: 500;
+        line-height: 26.5px;
+        font-size: 18px;
+    }
+    body main #contentBody #searchProduct {
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 37.1px;
+    }
+    body main #contentBody #topProduct {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 29.15px;
+    }
+    body main #contentBody #featuredProduct {  
+        font-size: 20px;
+    }
+}
+@media all and (max-width: 940px){
+    body main #contentBody {
+        width: 742px;
+    }
+    body main #contentBody #searchDiv #searchContent #searchBar {
+        width: 515px;
+        height: 40px
+    }
+    body main #contentBody #searchDiv #searchContent #searchButton {
+        width: 115px;
+        height: 40px;
+        font-weight: 500;
+        line-height: 26.5px;
+        font-size: 18px;
+    }
+    body main #contentBody #searchProduct {
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 37.1px;
+    }
+    body main #contentBody #topProduct {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 29.15px;
+    }
+    body main #contentBody #featuredProduct {  
+        font-size: 20px;
+}
+body main #contentBody #cardRow {
+    grid-template-columns: auto auto auto;
+    row-gap: 80px;
+}
 }
