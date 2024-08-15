@@ -268,20 +268,17 @@ body main #contentBody #card #allContent #pricePurchase #increament #decreament 
 body main #contentBody #card #allContent #pricePurchase #increament #decreament p {
     margin: 0px;
 }
-body main #contentBody #popup {
-    position: absolute;
-    top: -100%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 649px;
-    height: 419px;  
-    padding: 20px;
-    background:#1E1E1E;
-    border-radius: 40px;
-    margin-top: -25px;
-    text-align: center;
+body  #popup {
+    position: fixed;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%; 
+    background: rgb(0, 0, 0, 0.6);
 }
-body main #contentBody #popup #closePopup {
+body #popup #popContent #closePop {
     margin: 10px 0px 15px 0px;
     position: absolute;
     right: 40px;
@@ -312,11 +309,6 @@ body main #contentBody #checkoutContainer #checkoutButton {
     line-height: 26.5px;
     overflow: hidden;
 }
-body  #checkoutButton main {
-    filter:drop-shadow(0px 4px 4px 0px #0000001A);
-    box-shadow: ;
-    transition: 
-}
 body main #contentBody #checkoutContainer #checkoutButton:after  {
     content: '';
     position: absolute;
@@ -328,26 +320,26 @@ body main #contentBody #checkoutContainer #checkoutButton:after  {
     z-index: -1;
     border-radius: 5px;
 }
-body main #contentBody #popup #checkVector {
+body #popup #popContent #checkVector {
     margin: 60px auto 0px auto;
     width: 126.76px;
     height: 126.75px;
 }
-body main #contentBody #popup #successText {
+body #popup #popContent #successText {
     font-size: 52px;
     font-weight: 600;
     line-height: 68.9px;
     color: #FFFFFF;
     margin: 0px auto 10px auto;
 }
-body main #contentBody #popup #othertext {
+body #popup #popContent #othertext {
     font-size: 20px;
     font-weight: 600;
     line-height: 26.5px;
     color: #C0C0C0;
     margin: 5px auto 5px auto;
 }
-body main #contentBody #popup #pricetext {
+body #popup #popContent #pricetext {
     font-size: 60px;
     font-weight: 600;
     line-height: 79.5px;
@@ -356,19 +348,15 @@ body main #contentBody #popup #pricetext {
     -webkit-text-fill-color: transparent;
     margin: 5px auto 5px auto;
 }
-body #active #popup {
-    overflow: hidden;
+body #popup #popContent {
+    width: 649px;
+    height: 419px;
+    border-radius: 40px;
+    background: #1E1E1E;
+    position: relative;
+    text-align: center
 }
-body #active main {
-    filter:grayscale( 0px 4px 4px 0px #0000001A;
-    );
-    background: transparent;
-    transition: filter 0ms ease-in-out 0ms;
-}
-body #active #popup {
-    top: 50%;
-    opacity: 1;
-    margin-top: 0px;
-    transition: top 0ms ease-in-out 300ms, opcity 300ms ease-in-out, margin-top 300ms ease-in-out;
+body #popup #popContent #closePopup {
+  
 }
 
