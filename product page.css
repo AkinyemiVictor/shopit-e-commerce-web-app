@@ -272,9 +272,6 @@ body main #contentBody #cardRow #card #allContent #pricePurchase button {
     border: 0px;
     border-radius: 8px;
 }
-@media all and (max-width: 350px) {
-    
-}
 @media all and (max-width: 1400px){
     body main #contentBody {
         width: 1186px;
@@ -357,25 +354,20 @@ body main #contentBody #cardRow #card #allContent #pricePurchase button {
         width: 742px;
     }
     body main #contentBody #searchDiv #searchContent #searchBar {
-        width: 515px;
+        width: 475px;
         height: 40px
     }
     body main #contentBody #searchDiv #searchContent #searchButton {
-        width: 115px;
+        width: 105px;
         height: 40px;
-        font-weight: 500;
-        line-height: 26.5px;
-        font-size: 18px;
     }
     body main #contentBody #searchProduct {
         font-weight: 500;
         font-size: 26px;
-        line-height: 37.1px;
     }
     body main #contentBody #topProduct {
         font-weight: 600;
         font-size: 20px;
-        line-height: 29.15px;
     }
     body main #contentBody #featuredProduct {  
         font-size: 20px;
@@ -383,5 +375,77 @@ body main #contentBody #cardRow #card #allContent #pricePurchase button {
 body main #contentBody #cardRow {
     grid-template-columns: auto auto auto;
     row-gap: 80px;
+}
+}
+@media all and (max-width: 780px) {
+    body main #contentBody {
+        width: 544px;
+    }
+    body main #contentBody #searchDiv #searchContent #searchBar {
+        width: 345px;
+        height: 40px
+    }
+    body main #contentBody #searchDiv #searchContent #searchButton {
+        width: 105px;
+        height: 40px;
+    }
+    body main #contentBody #searchProduct {
+        font-weight: 500;
+        font-size: 26px;
+    }
+    body main #contentBody #topProduct {
+        font-weight: 600;
+        font-size: 20px;
+    }
+    body main #contentBody #featuredProduct {  
+        font-size: 20px;
+}
+body main #contentBody #cardRow {
+    grid-template-columns: auto auto;
+    row-gap: 80px;
+}
+}
+@media all and (max-width: 590px) {
+    body main #contentBody {
+        width: 424px;
+    }
+    body main #contentBody #searchDiv #searchContent #searchBar {
+        width: 405px;
+        height: 40px
+    }
+    body main #contentBody #searchDiv #searchContent #searchButton {
+        width: 105px;
+        height: 40px;
+    }
+body main #contentBody #cardRow {
+    grid-template-columns: auto auto;
+    row-gap: 50px;
+}
+}
+@media all and (max-width: 450px) {
+    body main #contentBody {
+        width: 320px;
+    }
+    body main #contentBody #searchDiv #searchContent #searchBar {
+        width: 200px;
+        height: 40px
+    }
+    body main #contentBody #searchDiv #searchContent #searchButton {
+        width: 105px;
+        height: 40px;
+    }
+body main #contentBody #cardRow {
+    grid-template-columns: auto;
+    row-gap: 50px;
+}
+body main #contentBody #cardRow #card{
+    width: 202px;
+    height: 287px;
+    border-radius: 8px;
+    background: #1E1E1E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 0px 0px;
 }
 }

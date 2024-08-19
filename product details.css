@@ -25,7 +25,7 @@ body main #contentBody{
 }
 body main #contentBody #header {
     margin: 40px auto auto auto;
-    width: 1320px;
+    width: auto;
     display: flex;
     justify-content: space-between;
 }
@@ -226,6 +226,9 @@ body main #contentBody #holder #card #allContent #productDescription #pricePurch
     height: 34px;
     border-radius: 5px;
     border: 0px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.2px;
     background-image: linear-gradient(90deg, #FF2D5F 0%, #A00060 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -246,3 +249,149 @@ body main #contentBody #holder #card #allContent #productDescription #pricePurch
     width: 20.14px;
     height: 19.78px;
 } 
+@media all and (max-width: 1380px)  {
+    body main #contentBody{
+    width: 1120px;
+    }
+}
+@media all and (max-width: 1150px)  {
+    body main #contentBody{
+        width: 950px;
+        }
+        body main #contentBody #holder #card #allContent #productDescription #p1 br {
+         display: none;
+        }
+        body main #contentBody #productdetailsText {
+            font-size: 30px;
+            line-height: 45.05px;
+        }
+
+}
+@media all and (max-width: 1024px)  {
+    body main #contentBody{
+        width: 840px;
+        }
+        body main #contentBody #holder #card #allContent #productDescription #p1 {
+        font-size: 20px; 
+        line-height: 27.8px; 
+        margin-right: 20px;  
+        }
+        body main #contentBody #holder #card #allContent #productDescription #p2 {
+            font-size: 14px;
+            line-height: 20.2px; 
+        }
+        body main #contentBody #holder #card #allContent #productDescription ul li {
+                font-size: 14px;
+                line-height: 20.2px; 
+        }
+        body main #contentBody #productdetailsText {
+            font-size: 28px;
+            line-height: 45.05px;
+        }
+        body main #contentBody #holder #card #allContent #productDescription #productDescription2 {
+            margin-top: 60px;
+        }
+        body main #contentBody #holder #card #allContent #productDescription #productDescription2 #p2 {
+             font-size: 14px;
+            line-height: 20.2px;
+        }
+        body main #contentBody #holder #card #allContent #productDescription #productDescription2 #productRating #star1 {
+            width: 16.68px;
+            height: 15.72px;
+        }
+        body main #contentBody #holder #card #allContent #productDescription #productDescription2 #productRating #star2 {
+            width: 16.68px;
+            height: 15.72px;
+        }
+        body main #contentBody #holder #card #allContent #productDescription #productDescription2 #productRating #star3 {
+            width: 16.68px;
+            height: 15.72px;
+        }
+        body main #contentBody #holder #card #allContent #productDescription #productDescription2 #productRating #star4 {
+            width: 16.68px;
+            height: 15.72px;
+        }
+        body main #contentBody #holder #card #allContent #productDescription #productDescription2 #productRating #star5 {
+            width: 16.68px;
+            height: 15.72px;
+        }
+        body main #contentBody #holder #card #allContent #productDescription #price {
+            font-size: 25px;
+            line-height: 35.77px;
+        }
+        body main #contentBody #holder #card #allContent #productDescription #pricePurchase #addtoCart {
+            font-size: 14px;
+            line-height: 20.2px;
+        }
+        body main #contentBody #holder #card #allContent #productDescription #pricePurchase #buynowButton {
+            font-size: 14px;
+            line-height: 20.2px;
+        }
+}
+@media all and (max-width: 900px)  {
+    body main #contentBody{
+        width: 730px;
+    }
+    body main #contentBody #holder #card #allContent #imageHolder {
+        width: 100%;
+        height: auto;   
+    }
+    body main #contentBody #holder #card #allContent #imageHolder #productImg {
+        width: 635px;
+        height: auto;
+        border-radius: 38px;
+    }
+    body main #contentBody #holder #card #allContent #productDescription {
+         width: 100%;
+    }
+    body main #contentBody #holder #card #allContent{
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 25px 25px 25px 25px;
+    }
+    body main #contentBody #productdetailsText {
+        font-size: 26px;
+        line-height: 45.05px;
+    }
+}
+@media all and (max-width: 814px)  {
+    body main #contentBody{
+        width: 650px;
+    }
+    body main #contentBody #holder #card #allContent #imageHolder {
+        width: 100%;
+        height: auto;   
+    }
+    body main #contentBody #holder #card #allContent #imageHolder #productImg {
+        width: 555px;
+        height: auto;
+    }
+    body main #contentBody #holder #card #allContent #productDescription {
+         width: 100%;
+    }
+    body main #contentBody #holder #card #allContent{
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 25px 25px 25px 25px;
+    }
+    body main #contentBody #holder #card #allContent #productDescription #p1 {
+        font-size: 20px; 
+        line-height: 27.8px; 
+        margin-right: 20px;  
+        }
+        body main #contentBody #holder #card #allContent #productDescription #p1 br {
+            display: flex;  
+            }
+}
+    
+@media all and (max-width: )  {
+    
+}
+@media all and (max-width: )  {
+    
+}
+@media all and (max-width: )  {
+    
+}
