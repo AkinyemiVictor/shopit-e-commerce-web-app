@@ -109,6 +109,7 @@ body main #contentBody #header #cartProfile #userHolder #userMore img {
 body main #contentBody #cartCheckoutText {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 100px;
 }
 body main #contentBody #cartCheckoutText #checkoutText {
@@ -121,9 +122,12 @@ body main #contentBody #cartCheckoutText #checkoutText {
 body main #contentBody #cartCheckoutText #total { 
     font-size: 19px;
     font-weight: 600;
-    line-height: 25.17px;
+    text-align: center;
+    justify-content: center;
     text-align: left;
     color: #C0C0C0;  
+    line-height: normal;
+    height: 19px;
 }
 body main #contentBody #card {
     width: 100%;
@@ -142,7 +146,7 @@ body main #contentBody #card #allContent {
 }
 body main #contentBody #card #allContent #imageHolder {
     margin: 0px 30px 0px 0px;
-    width: 144px;
+    min-width: 144px;
     height: 142px;
     border-radius: 8px;
     overflow: hidden;
@@ -223,11 +227,15 @@ body main #contentBody #card #allContent #pricePurchase #price {
     color: #C0C0C0;
     margin: 0px 0px 0px 0px;
     top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 body main #contentBody #card #allContent #pricePurchase #price #priceTag {
     width: 24.94px;
     height: 24.94px;
     color: #C0C0C0;
+    margin-right: 3px;
 }
 body main #contentBody #card #allContent #pricePurchase #increament {
     display: flex;
@@ -236,7 +244,7 @@ body main #contentBody #card #allContent #pricePurchase #increament {
     color: #C0C0C0;
     position: absolute;
     bottom: 0px;
-    width: 100%;
+    width: 100px;
 }
 body main #contentBody #card #allContent #pricePurchase #increament #leftIncreament {
     width: 32px;
@@ -360,4 +368,199 @@ body #popup #popContent {
 body #popup #popContent #closePopup {
   
 }
-
+@media all and (max-width: 1400px) {
+    body main #contentBody{
+        width: 1200px;
+    }
+    body main #contentBody #header {
+        margin: 40px auto auto auto;
+        width: 1200px; 
+    }
+}
+@media all and (max-width: 1324px) {
+    body main #contentBody{
+        width: 980px;
+    }
+    body main #contentBody #header {
+        margin: 40px auto auto auto;
+        width: 980px;
+    }
+}
+@media all and (max-width: 1107px) {
+    body main #contentBody{
+        width: 780px;
+    }
+    body main #contentBody #header {
+        margin: 40px auto auto auto;
+        width: 780px;  
+    }
+    body main #contentBody #checkoutContainer #checkoutButton {
+        width: 277px;
+        font-size: 18px;
+    }
+    body main #contentBody #checkoutContainer {
+       margin: 150px 0px 100px 0px;
+    }
+    body main #contentBody #card #allContent #productRating #star1 {
+        width: 18.0px;
+        height: 16.20px;
+    }
+    body main #contentBody #card #allContent #productRating #star2 {
+        width: 18.0px;
+        height: 16.20px;
+    }
+    body main #contentBody #card #allContent #productRating #star3 {
+        width: 18.0px;
+        height: 16.20px;
+    }
+    body main #contentBody #card #allContent #productRating #star4 {
+        width: 18.0px;
+        height: 16.20px;
+    }
+    body main #contentBody #card #allContent #productRating #star5 {
+        width: 18.0px;
+        height: 16.20px;
+    }
+    body main #contentBody #cartCheckoutText #checkoutText {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    body main #contentBody #card #allContent #productDescription h1 {
+        font-size: 20px;
+    }
+    body main #contentBody #card #allContent #productDescription p {
+        font-size: 12px;
+    }
+    body main #contentBody #cartCheckoutText #total { 
+        font-size: 16px;
+        height: 19px;
+    }
+    body main #contentBody #card #allContent #pricePurchase #price {
+        font-size: 20px;
+    }
+    body main #contentBody #card #allContent #pricePurchase #price #priceTag {
+        width: 16px;
+        height: 16px;
+    }
+    body main #contentBody #card #allContent #pricePurchase #increament {
+        width: 70px;
+    }
+    body main #contentBody #card #allContent #pricePurchase #increament #leftIncreament {
+        width: 22px;
+        height: 22px;
+    }
+    body main #contentBody #card #allContent #pricePurchase #increament #leftIncreament p {
+        margin: 0px;
+    }
+    body main #contentBody #card #allContent #pricePurchase #increament p {
+        margin: 0px 0px 0px 0px;
+    }
+    body main #contentBody #card #allContent #pricePurchase #increament #decreament {
+        width: 22px;
+        height: 22px;
+    }
+    body main #contentBody #card #allContent #pricePurchase #increament #decreament p {
+        margin: 0px;
+    }
+    body  #popup {
+        position: fixed;
+        top: 0;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%; 
+        background: rgb(0, 0, 0, 0.6);
+    }
+}
+@media all and (max-width: 849px) {
+    body main #contentBody{
+        width: 640px;
+    }
+    body main #contentBody #header {
+        margin: 40px auto auto auto;
+        width: 640px;  
+    }
+    body main #contentBody #checkoutContainer #checkoutButton {
+        width: 277px;
+        font-size: 16px;
+    }
+    body main #contentBody #checkoutContainer {
+       margin: 100px 0px 100px 0px;
+    }
+    body main #contentBody #card #allContent #productRating #star1 {
+        width: 15.0px;
+        height: 14.80px;
+    }
+    body main #contentBody #card #allContent #productRating #star2 {
+        width: 15.0px;
+        height: 14.80px;
+    }
+    body main #contentBody #card #allContent #productRating #star3 {
+        width: 15.0px;
+        height: 14.80px;
+    }
+    body main #contentBody #card #allContent #productRating #star4 {
+        width: 15.0px;
+        height: 14.80px;
+    }
+    body main #contentBody #card #allContent #productRating #star5 {
+        width: 15.0px;
+        height: 14.80px;
+    }
+    body main #contentBody #cartCheckoutText #checkoutText {
+        font-size: 26px;
+        font-weight: 600;
+    }
+    body main #contentBody #card #allContent #productDescription h1 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    body main #contentBody #card #allContent #productDescription p {
+        font-size: 10px;
+    }
+    body main #contentBody #cartCheckoutText #total { 
+        font-size: 14px;
+        height: 19px;
+    }
+    body main #contentBody #card #allContent #pricePurchase #price {
+        font-size: 16px;
+    }
+    body main #contentBody #card #allContent #pricePurchase #price #priceTag {
+        width: 14px;
+        height: 14px;
+    }
+    body main #contentBody #card #allContent #pricePurchase #increament {
+        width: 60px;
+    }
+    body main #contentBody #card #allContent #pricePurchase #increament #leftIncreament {
+        width: 18px;
+        height: 18px;
+    }
+    body main #contentBody #card #allContent #pricePurchase #increament #leftIncreament p {
+        margin: 0px;
+        font-size: 10px;
+    }
+    body main #contentBody #card #allContent #pricePurchase #increament p {
+        margin: 0px 0px 0px 0px;
+        font-size: 12px;
+    }
+    body main #contentBody #card #allContent #pricePurchase #increament #decreament {
+        width: 18px;
+        height: 18px;
+    }
+    body main #contentBody #card #allContent #pricePurchase #increament #decreament p {
+        margin: 0px;
+        font-size: 10px;
+    }
+    body  #popup {
+        position: fixed;
+        top: 0;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%; 
+        background: rgb(0, 0, 0, 0.6);
+    }
+}
